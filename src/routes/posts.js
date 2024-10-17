@@ -8,7 +8,7 @@ const server = http.createServer(app); // Create HTTP server with the Express ap
 
 const io = socketIo(server, {
     cors: {
-        origin: "https://finaltry-js7doc3pm-sayam-jains-projects.vercel.app", // Allow your frontend origin
+        origin: "https://finaltry-q7pgjq7oa-sayam-jains-projects.vercel.app", // Allow your frontend origin
         methods: ["GET", "POST"], // Allow specific methods
         allowedHeaders: ["Content-Type"], // Allow specific headers
         credentials: true // Allow credentials (cookies, etc.)
